@@ -1,0 +1,78 @@
+Arch Linux :
+
+
+Packages :
+
+aegisub audacity bleachbit catfish deluge electrum filezilla fuse gimp git gparted gsmartcontrol keepassxc kodi libreoffice lolcat mediainfo-gui mkvtoolnix-gui mpv mumble networkmanager-openvpn neofetch openssh pavucontrol peek pragha qbittorrent liferea ranger rclone riot-desktop smplayer smplayer-skins ttf-dejavu vim virtualbox vlc youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
+
+
+Install Manually from Aur :
+
+git clone [URL]
+cd aurman/
+makepkg -si
+[Error]
+gpg --recv-key [Key]
+makepkg -si
+
+Aur Helper :
+
+aurman
+yay
+
+
+Aur :
+
+breeze-obsidian-cursor-theme cava icecat-bin jdownloader2 paper-icon-theme-git rclone-browser spek-git tor-browser
+
+
+AppImage :
+
+DeezLoader-Remix FreeTube
+
+
+
+
+
+Desktop Environment Specific Packages :
+
+XFCE :
+
+arc-gtk-theme file-roller galculator gedit gnome-system-monitor p7zip ristretto xfce4-screenshooter xreader
+
+Add Search to Thunar :
+
+- Edit - Configure custom actions...
+
+Name 	Command 	File patterns 	Appears if selection contains
+Search 	catfish --path=%f 	* 	Directories 
+
+KDE : breeze ark kcalc kate ksysguard  gwenview spectacle okular
+
+
+
+
+
+
+Firefox :
+
+Addons :
+
+CanvasBlocker / Cookie AutoDelete / Dark Background and Light Text / Decentraleyes / HTTPS Everywhere / uBlock Origin / uMatrix
+
+
+Optional Addons :
+
+Privacy Badger / Block Cloudflare MiTM Attack / Traclermess Magnet URl
+
+
+
+Games :
+
+Overwatch :
+
+lutris wine-staging lib32-gnutls lib32-libldap lib32-libgpg-error lib32-sqlite lib32-libpulse
+
+Emulators :
+
+mame dolphin-emu

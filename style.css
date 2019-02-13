@@ -1,0 +1,36 @@
+body {
+  background: #111111;
+  color: #ffffff;
+  font: 1.2em "Liberation Sans", sans-serif;
+}
+
+a {
+  color: #5070ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.welcome {
+  text-align: center;
+}
+
+.addassearchengine {
+  font: 1.5em
+}
+
+.alignright {
+  color: #5070ff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  border: 3px solid #5070ff;
+}
