@@ -15,7 +15,10 @@ rclone move --verbose --transfers 2 [SOURCES] [DEST]
 rclone copy --verbose --transfers 2 [SOURCES] [DEST]
 #rclone move --verbose --transfers 2  '/path/to/source/' 'Backups:Dest/'
 
-
+Git :
+git add .
+git commit -m "MESSAGE"
+git push origin master
 
 
 #Data Management : 
