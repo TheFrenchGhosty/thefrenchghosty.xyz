@@ -23,7 +23,7 @@ yay
 
 Aur :
 
-breeze-obsidian-cursor-theme cava icecat-bin jdownloader2 paper-icon-theme-git rclone-browser signal-desktop-git spek-git tor-browser
+breeze-obsidian-cursor-theme cava icecat-bin jdownloader2 paper-icon-theme-git rclone-browser signal-desktop-git spek-git tor-browser woeusb-git
 
 
 AppImage :

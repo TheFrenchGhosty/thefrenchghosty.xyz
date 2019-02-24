@@ -5,11 +5,13 @@
 <head>
   <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <style>
+
 		body {
- 		 background: #111111;
- 		 color: #ffffff;
- 		 font: 1.2em "Liberation Sans", sans-serif;
+		  background: #111111;
+		  color: #ffffff;
+		  font: 1.2em "Liberation Sans", sans-serif;
 		}
 
 		a {
@@ -18,88 +20,85 @@
 		}
 
 		a:hover {
-		  text-decoration: underline;
+ 		 text-decoration: underline;
 		}
-
 
 		.source {
 		  color: #5070ff;
 		  position: absolute;
-		  top: 10px;
-		  right: 10px;
+ 		 top: 10px;
+ 		 right: 10px;
 		}
 
+		.flags {
+		  display: flex;
+		  justify-content: space-evenly;
+		  position: relative;
+		}
 
-		.en {
-		  position: fixed;
-		  top: 50%;
-		  left: 30%;
+		.en, .fr {
+		  position: absolute;
+ 		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%)
 		}
 
 		.en-flag {
-		  position: fixed;
-		  top: 31%;
-		  left: 18%;
 		  z-index: -1;
 		}
-		
-		
-		
-		.fr{
-		  position: fixed;
-		  top: 50%;
-		  left: 70%;
-		}
-
+ 
 		.fr-flag {
-		  position: fixed;
-		  top: 31%;
-		  left: 58.5%;
 		  z-index: -1;
-		 }
+		}
 
 		img {
 		  opacity: 0.3;
 		}
-		
+
+		.flag-container {
+ 		  display: flex;
+		  justify-content: space-evenly;
+		}
+
 		.footer {
-		  position: fixed;
-		  bottom: -25px;
-		  left: 50%;
-		  transform: translate(-50%, -50%);
+		  position: absolute;
+		  bottom: 20px;
+		  left: 0;
+		  right: 0;
+		  justify-content: center;
 		  text-align: center;
 		  font-size: 15px;
 		  border: 3px solid #5070ff;
 		}
+	
   </style>
+  </head>
 
-</head>
 
 
 <body>
 
+<a href="https://thefrenchghosty.xyz">Home</a>
 
-
-<a href="#">Home</a>
 
 
 <div class="source"><a href="https://gitlab.com/TheFrenchGhosty/thefrenchghosty.xyz">Source</a></div>
 
-
-
-<div class="en"><a href="en.html">English</a></div>
-<div class="en-flag"><img src="en.png" width="450" heigt="300">
-
-<div class="fr"><a href="fr.html">Francais</a></div>
-<div class="fr-flag"><img src="fr.png" width="450" height="300">
-
-<div class="footer">
-
-Support the Development :
-<p>BTC : <a href="bitcoin:14PTqRDM4FJzQxJBJYkTA9nkX8ujur6NaJ">14PTqRDM4FJzQxJBJYkTA9nkX8ujur6NaJ</a>
-
+<div class="flag-container">
+  <div class="flags en-flag"><img src="en.png" width="450" heigt="300">
+    <div class="en"><a href="en.html">English</a></div>
+  </div>
+  <div class="flags fr-flag"><img src="fr.png" width="450" height="300">
+    <div class="fr"><a href="fr.html">Francais</a></div>
+  </div>
 </div>
 
+
+
+<div class="footer">
+  Support the Development :<br><br> BTC : <a href="bitcoin:14PTqRDM4FJzQxJBJYkTA9nkX8ujur6NaJ">14PTqRDM4FJzQxJBJYkTA9nkX8ujur6NaJ</a>
+  <br><br><a href="contributors.html">Contributors</a>
+</div>
 
 
 </body>
