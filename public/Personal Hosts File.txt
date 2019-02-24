@@ -5,13 +5,11 @@
 # StevenBlack Unified Hosts (+ fakenews + gambling + porn + social)
 # 
 
-# ~ NOT IN THIS VERSION ~ #
+# ~ NONE IN THIS VERSION ~ #
 # Personal Edits :
 #
-# Reddit Whitelisted
-# Twitter Whitelisted
-# PH Whitelisted (only the main domain)
-# ~ NOT IN THIS VERSION ~ #
+#
+# ~ NONE IN THIS VERSION ~ #
 
 
 

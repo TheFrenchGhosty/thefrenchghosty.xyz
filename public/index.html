@@ -26,30 +26,24 @@
 		.source {
 		  color: #5070ff;
 		  position: absolute;
- 		 top: 10px;
- 		 right: 10px;
+ 		  top: 10px;
+ 		  right: 10px;
 		}
 
 		.flags {
-		  display: flex;
-		  justify-content: space-evenly;
 		  position: relative;
+		  top: 50%;
+		  transform: translateY(50%);
 		}
 
 		.en, .fr {
 		  position: absolute;
  		  top: 50%;
 		  left: 50%;
-		  transform: translate(-50%, -50%)
+		  transform: translate(-50%, -50%);
 		}
 
-		.en-flag {
-		  z-index: -1;
-		}
- 
-		.fr-flag {
-		  z-index: -1;
-		}
+		
 
 		img {
 		  opacity: 0.3;
@@ -85,10 +79,10 @@
 <div class="source"><a href="https://gitlab.com/TheFrenchGhosty/thefrenchghosty.xyz">Source</a></div>
 
 <div class="flag-container">
-  <div class="flags en-flag"><img src="en.png" width="450" heigt="300">
+  <div class="flags"><img src="en.png" width="450" heigt="300">
     <div class="en"><a href="en.html">English</a></div>
   </div>
-  <div class="flags fr-flag"><img src="fr.png" width="450" height="300">
+  <div class="flags"><img src="fr.png" width="450" height="300">
     <div class="fr"><a href="fr.html">Francais</a></div>
   </div>
 </div>
