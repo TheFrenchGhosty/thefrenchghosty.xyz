@@ -85,7 +85,7 @@ Overwatch :
 
 lutris wine-staging lib32-gnutls lib32-libldap lib32-libgpg-error lib32-sqlite lib32-libpulse
 
-Grand Theft Auto 5 Steam Proton
+Grand Theft Auto 5 Steam Proton Launch Option : "DXVK_HUD=fps PROTON_NO_ESYNC=1 WINEDLLOVERRIDES=winedbg.exe=d %command%"
 
 Emulators :
 
