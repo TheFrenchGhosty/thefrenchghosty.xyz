@@ -7,7 +7,7 @@ Indenting/Formating Rules :
 - 1 Blank line at the end of the file
 
 
-Example :
+Example : (the blank line at the end of the file is not displayed)
 
 ```html
 <!DOCTYPE html>
