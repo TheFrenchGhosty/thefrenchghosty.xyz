@@ -1,9 +1,9 @@
 Indenting/Formating Rules :
 
 - 2 Spaces
-- 1 Blank line between : <html> and <head>
-- 1 Blank line between : </head> and <body>
-- 1 Blank line between : </body> </html>
+- 1 Blank line between : \<html> and \<head>
+- 1 Blank line between : \</head> and \<body>
+- 1 Blank line between : \</body> and \</html>
 - 1 Blank line at the end of the file
 
 
