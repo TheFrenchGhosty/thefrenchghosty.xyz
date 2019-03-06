@@ -3,8 +3,4 @@
 Available Here : https://thefrenchghosty.xyz/
 
 
-TODO :
-Replace every .txt (except Personal Hosts File.txt) with an equivalent .html
-
-
-Merge Requests are Welcome
+Merge Requests are welcome : See the Indenting/Formating Rules [here](https://gitlab.com/TheFrenchGhosty/thefrenchghosty.xyz/blob/master/CONTRIBUTING.md)
