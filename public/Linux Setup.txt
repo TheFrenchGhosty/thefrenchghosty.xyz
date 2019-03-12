@@ -3,7 +3,7 @@ Arch Linux :
 
 Packages :
 
-aegisub audacity bleachbit catfish cerbot curl deluge electrum filezilla fuse gimp git gparted gsmartcontrol keepassxc kodi libreoffice lolcat mediainfo-gui mkvtoolnix-gui mpv mumble networkmanager-openvpn neofetch openssh pavucontrol peek pragha qbittorrent liferea ranger rclone riot-desktop smplayer smplayer-skins ttf-dejavu vim virtualbox vlc youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
+aegisub audacity bleachbit catfish cerbot curl deluge electrum filezilla fuse gnome-twitch gimp git gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly keepassxc kodi libreoffice lolcat mediainfo-gui mkvtoolnix-gui mpv mumble networkmanager-openvpn neofetch openssh pavucontrol peek pragha qbittorrent liferea ranger rclone riot-desktop smplayer smplayer-skins ttf-dejavu vim virtualbox vlc youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
 
 
 Install Manually from Aur :
