@@ -58,12 +58,12 @@ Firefox :
 
 Addons :
 
-CanvasBlocker / Cookie AutoDelete / Dark Background and Light Text / Decentraleyes / HTTPS Everywhere / uBlock Origin / uMatrix
+CanvasBlocker / Chamelon / Cookie AutoDelete / Decentraleyes / HTTPS Everywhere / uBlock Origin / uMatrix
 
 
 Optional Addons :
 
-Privacy Badger / Block Cloudflare MiTM Attack / Traclermess Magnet URl
+Block Cloudflare MiTM Attack / Dark Background and Light Text / Traclermess Magnet URl
 
 
 
@@ -81,12 +81,12 @@ vim /etc/modprobe.d/xbox_bt.conf
 --
 options bluetooth disable_ertm=1
 --
-Overwatch :
 
+Overwatch :
 lutris wine-staging lib32-gnutls lib32-libldap lib32-libgpg-error lib32-sqlite lib32-libpulse
 
-Grand Theft Auto 5 Steam Proton Launch Option : "DXVK_HUD=fps PROTON_NO_ESYNC=1 WINEDLLOVERRIDES=winedbg.exe=d %command%"
+Grand Theft Auto 5 Steam Proton Launch Option : 
+"DXVK_HUD=fps PROTON_NO_ESYNC=1 WINEDLLOVERRIDES=winedbg.exe=d %command%"
 
 Emulators :
-
 mame dolphin-emu
