@@ -38,7 +38,8 @@ Desktop Environment Specific Packages :
 
 XFCE :
 
-arc-gtk-theme file-roller galculator gedit gnome-system-monitor lightdm lightdm-gtk-greeter p7zip ristretto xfce4-screenshooter xreader
+lightdm lightdm-gtk-greeter
+arc-gtk-theme file-roller galculator gedit gnome-system-monitor p7zip ristretto xfce4-screenshooter xreader
 
 Add Search to Thunar :
 
@@ -47,7 +48,10 @@ Add Search to Thunar :
 Name 	Command 	File patterns 	Appears if selection contains
 Search 	catfish --path=%f 	* 	Directories 
 
-KDE : breeze ark kcalc kate ksysguard  gwenview spectacle okular
+KDE : 
+
+sddm
+breeze ark kcalc kate ksysguard  gwenview spectacle okular
 
 
 
