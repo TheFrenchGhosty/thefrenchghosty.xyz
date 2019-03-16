@@ -38,7 +38,7 @@ Desktop Environment Specific Packages :
 
 XFCE :
 
-arc-gtk-theme file-roller galculator gedit gnome-system-monitor p7zip ristretto xfce4-screenshooter xreader
+arc-gtk-theme file-roller galculator gedit gnome-system-monitor lightdm lightdm-gtk-greeter p7zip ristretto xfce4-screenshooter xreader
 
 Add Search to Thunar :
 
