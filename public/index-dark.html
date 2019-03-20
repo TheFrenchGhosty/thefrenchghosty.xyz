@@ -5,61 +5,7 @@
   <title>Ghosty's Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <style>
-    body {
-    background: #222222;
-    color: #ffffff;
-    font: 1.2em "Liberation Sans", sans-serif;
-    }
-
-    a {
-    color: #5070ff;
-    text-decoration: none;
-    }
-
-    a:hover {
-    text-decoration: underline;
-    }
-
-    .theme {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    }
-
-    .flags {
-    position: relative;
-    top: 50%;
-    transform: translateY(50%);
-    }
-
-    .en, .fr {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
-
-    img {
-    opacity: 0.3;
-    }
-
-    .flag-container {
-    display: flex;
-    justify-content: space-evenly;
-    }
-
-    .footer {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    justify-content: center;
-    text-align: center;
-    font-size: 15px;
-    border: 3px solid #ffffff;
-    }
-  </style>
+  <link rel="stylesheet" href="style/dark-theme.css">
 </head>
 
 <body>
@@ -69,19 +15,19 @@
   </div>
   <div class="flag-container">
     <div class="flags">
-      <img src="en.png" width="450" heigt="300">
+      <img src="images/en.png" width="450" heigt="300">
         <div class="en">
           <a href="en-dark.html">English</a>
         </div>
       </div>
     <div class="flags">
-      <img src="fr.png" width="450" height="300">
+      <img src="images/fr.png" width="450" height="300">
         <div class="fr">
           <a href="fr-dark.html">Français</a>
         </div>
       </div>
   </div>
-  <div class="footer">
+  <div class="index-footer">
     <p><a href="support-en-dark.html">Support the Development</a></p>
   </div>
 </body>
