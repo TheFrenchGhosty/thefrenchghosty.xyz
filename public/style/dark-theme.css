@@ -5,11 +5,12 @@ font: 1.2em "Liberation Sans", sans-serif;
 }
 
 a {
-color: #5070ff;
+color: #bbbbbb;
 text-decoration: none;
 }
 
 a:hover {
+color: #eeeeee
 text-decoration: underline;
 }
 
