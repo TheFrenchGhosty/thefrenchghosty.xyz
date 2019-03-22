@@ -6,12 +6,12 @@ font: 1.2em "Liberation Sans", sans-serif;
 
 a {
 color: #bbbbbb;
-text-decoration: none;
+text-decoration: underline;
 }
 
 a:hover {
 color: #eeeeee
-text-decoration: underline;
+text-decoration: none;
 }
 
 img {
