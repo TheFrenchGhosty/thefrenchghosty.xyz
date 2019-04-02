@@ -11,8 +11,8 @@ List packages not installed with pacman : pacman -Qm
 
 Rclone :
 
-rclone move --verbose --transfers 2 [SOURCES] [DEST]
-rclone copy --verbose --transfers 2 [SOURCES] [DEST]
+rclone move --verbose --stats 1s --transfers 2 [SOURCES] [DEST]
+rclone copy --verbose --stats 1s --transfers 2 [SOURCES] [DEST]
 #rclone move --verbose --transfers 2  '/path/to/source/' 'Backups:Dest/'
 
 Git :
