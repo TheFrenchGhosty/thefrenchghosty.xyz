@@ -57,39 +57,6 @@ breeze ark kcalc kate ksysguard  gwenview spectacle okular
 -----
 
 
-Firefox :
-
-Use Icecat, period. https://spyware.neocities.org/articles/firefox.html
-
-Addons :
-
-CanvasBlocker / Chamelon / Cookie AutoDelete / Decentraleyes / HTTPS Everywhere / Invidition / Neat URL / Skip Redirect / uBlock Origin / uMatrix
-
-
-Optional Addons :
-
-Block Cloudflare MiTM Attack / Dark Background and Light Text
-
-
-Userscripts ( https://greasyfork.org/ ) :
-TamperMonkey : Closed Source
-GreaseMonkey : No update between August 2018 and June 2019, not recommended since it might happen again
-ViolentMonkey : Use this
-
-
-Scripts : 
-Magnet Link Cleaner (Alternative to https://addons.mozilla.org/en-US/firefox/addon/trackerless-magnets/ ) : https://gitlab.com/TheFrenchGhosty/torrent-magnet-cleaner-userscript
-
-
-
-Userstyle ( https://userstyles.org/ ) :
-Stylish : Closed Source, Spyware (See https://en.wikipedia.org/wiki/Stylish#Privacy_issues )
-Stylus : Use this
-
-
------
-
-
 Games :
 
 Gamepad Setup :
