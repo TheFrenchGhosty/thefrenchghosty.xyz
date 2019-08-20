@@ -3,7 +3,7 @@ Arch Linux :
 
 Packages :
 
-arc-icon-theme aria2 aegisub android-file-transfer audacity aria2 beets bleachbit blueman catfish certbot curl deluge electrum filezilla fuse git gnome-disk-utility gnome-twitch gimp git gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly innoextract highlight keepassxc kodi libreoffice lolcat mediainfo-gui mkvtoolnix-gui mpv mumble networkmanager-openvpn neofetch nfoview noto-fonts-cjk noto-fonts-emoji obs-studio openssh pavucontrol peek pragha qbittorrent liferea ranger rclone riot-desktop smplayer smplayer-skins thunderbird tree ttf-dejavu vim virtualbox vlc wireshark-qt youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
+aegisub android-file-transfer audacity aria2 beets bleachbit catfish certbot curl deluge electrum filezilla fuse gnome-disk-utility gnome-twitch gimp git gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly innoextract highlight keepassxc kodi libreoffice lolcat mediainfo-gui mkvtoolnix-gui mpv mumble networkmanager-openvpn neofetch nfoview noto-fonts-cjk noto-fonts-emoji obs-studio openssh pavucontrol peek pragha qbittorrent liferea ranger rclone riot-desktop smplayer smplayer-skins thunderbird tree ttf-dejavu vim virtualbox vlc wine-staging wireshark-qt youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
 
 
 Install Manually from Aur :
@@ -23,12 +23,12 @@ yay
 
 Aur :
 
-adwaita-qt aseprite breeze-obsidian-cursor-theme cava chatty freetube-bin fsearch-git icecat-bin jdownloader2 lgogdownloader palemoon-bin paper-icon-theme-git pipes.sh qdirstat-git rclone-browser s-tui signal-desktop-git spek-git tor-browser ttf-ms-fonts woeusb-git xpadneo-dkms-git
+adwaita-qt aseprite breeze-obsidian-cursor-theme cava chatty freetube-bin fsearch-git icecat-bin jdownloader2 lgogdownloader palemoon-bin paper-icon-theme-git pipes.sh qdirstat-git rclone-browser s-tui signal-desktop-git spek-git tor-browser ttf-ms-fonts woeusb-git
 
 
 AppImage :
 
-DeezLoader-Remix FreeTube
+DeezLoader-Remix
 
 
 
@@ -68,7 +68,7 @@ options bluetooth disable_ertm=1
 --
 
 Overwatch :
-lutris wine-staging lib32-gnutls lib32-libldap lib32-libgpg-error lib32-sqlite lib32-libpulse
+lutris lib32-gnutls lib32-libldap lib32-libgpg-error lib32-sqlite lib32-libpulse
 
 Grand Theft Auto 5 Steam Proton Launch Option : 
 "DXVK_HUD=fps PROTON_NO_ESYNC=1 WINEDLLOVERRIDES=winedbg.exe=d %command%"
