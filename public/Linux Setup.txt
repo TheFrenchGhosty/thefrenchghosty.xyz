@@ -75,3 +75,12 @@ Grand Theft Auto 5 Steam Proton Launch Option :
 
 Emulators :
 mame dolphin-emu
+
+
+-----
+
+
+HP Printers : 
+
+https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#HPLIP
+hplip cups
