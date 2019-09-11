@@ -41,3 +41,7 @@ Create a folder to each files :
 for %i in (*) do md "%~ni"
 for %i in (*) do move "%i" "%~ni"
 pause
+
+List folders contain $NUM number of files:
+
+find -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} END{for (line in array) if (array[line]==num) printf "%s\n", line}'
