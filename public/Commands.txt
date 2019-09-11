@@ -48,4 +48,4 @@ find -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} EN
 
 Delete every folders containing $NUM number of files:
 
-IFS=$'\n'; for i in $(find -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} END{for (line in array) if (array[line]==num) printf "%s\n", line}'); do xargs -0 rm -rf $i; done
+IFS=$'\n'; for i in $(find -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} END{for (line in array) if (array[line]==num) printf "%s\n", line}'); do rm -rf $i; done
