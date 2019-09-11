@@ -42,6 +42,10 @@ for %i in (*) do md "%~ni"
 for %i in (*) do move "%i" "%~ni"
 pause
 
-List folders contain $NUM number of files:
+List folders contain $NUM number of files (Source https://superuser.com/questions/617050/find-directories-containing-a-certain-number-of-files):
 
 find -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} END{for (line in array) if (array[line]==num) printf "%s\n", line}'
+
+Delete every folders containing $NUM number of files:
+
+IFS=$'\n'; for i in $(find -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} END{for (line in array) if (array[line]==num) printf "%s\n", line}'); do xargs -0 rm -rf $i; done
