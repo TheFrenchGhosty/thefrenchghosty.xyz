@@ -49,3 +49,10 @@ find -mindepth 2 -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {arr
 Delete every folders containing $NUM number of files:
 
 IFS=$'\n'; for i in $(find -mindepth 2 -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} END{for (line in array) if (array[line]==num) printf "%s\n", line}'); do rm -rf $i; done
+
+Wipe a Drive :
+sudo blockdev --getbsz
+Get you blocksize
+
+dd status=progress if=/dev/zero of=/dev/sdX bs=[BLOCKSIZE] 
+
