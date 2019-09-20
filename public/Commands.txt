@@ -56,3 +56,14 @@ Get you blocksize
 
 dd status=progress if=/dev/zero of=/dev/sdX bs=[BLOCKSIZE] 
 
+RCLONE MOUNT :
+
+From Rclone Browser :
+rclone mount --vfs-cache-mode writes SOURCE: /path/to/mount
+
+Read Only :
+
+rclone mount --read-only SOURCE: /path/to/mount
+
+Read+Write : 
+rclone mount --vfs-cache-mode writes --low-level-retries 1000 SOURCE: /path/to/mount
