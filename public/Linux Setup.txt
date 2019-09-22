@@ -23,7 +23,7 @@ yay
 
 Aur :
 
-adwaita-qt aseprite breeze-obsidian-cursor-theme chatty cli-visualizer-git freetube-bin fsearch-git icecat-bin jdownloader2 lgogdownloader paper-icon-theme-git pipes.sh qdirstat-git rclone-browser s-tui signal-desktop-git spek-git tor-browser ttf-ms-fonts ungoogled-chromium-bin woeusb-git
+adwaita-qt aseprite breeze-obsidian-cursor-theme chatty cli-visualizer-git curseradio-git freetube-bin fsearch-git icecat-bin jdownloader2 lgogdownloader paper-icon-theme-git pipes.sh qdirstat-git rclone-browser s-tui signal-desktop-git spek-git tor-browser ttf-ms-fonts ungoogled-chromium-bin woeusb-git
 
 
 AppImage :
