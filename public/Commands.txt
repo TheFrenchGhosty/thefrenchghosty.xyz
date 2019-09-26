@@ -67,3 +67,7 @@ rclone mount --read-only SOURCE: /path/to/mount
 
 Read+Write : 
 rclone mount --vfs-cache-mode writes --low-level-retries 1000 SOURCE: /path/to/mount
+
+Rclone (Google Drive) 750GB daily limit:
+--bwlimit 8M (1 hour to spare)
+--bwlimit 8680 maximum
