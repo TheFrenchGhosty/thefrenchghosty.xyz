@@ -8,3 +8,8 @@ Todo :
 - Draw the favicon in pixel art
 
 Merge Requests are welcome : See the Indenting/Formating Rules [here](https://gitlab.com/TheFrenchGhosty/thefrenchghosty.xyz/blob/master/CONTRIBUTING.md).
+
+
+## Contact:
+
+#### XMPP: thefrenchghosty@snopyta.org
