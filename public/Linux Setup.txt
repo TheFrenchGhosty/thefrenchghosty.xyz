@@ -85,7 +85,6 @@ gnome-disk-utility-git
 gnome-system-monitor-git
 gnome-twitch-git
 gpodder-git
-gsmartcontrol-svn
 htop-git
 icecat-bin
 innoextract-git
