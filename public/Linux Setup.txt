@@ -1,6 +1,5 @@
 Arch Linux:
 
-
 Packages:
 
 aegisub
@@ -16,11 +15,13 @@ deluge
 electrum
 filezilla
 fuse
+geany
 gnome-disk-utility
 gnome-twitch
 gimp
 git
 gparted
+gpodder
 gsmartcontrol
 gstreamer
 gst-libav
@@ -28,16 +29,21 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
+hardinfo
+htop
 innoextract
 highlight
+jackett
 keepassxc
 kodi
-libreoffice
+libreoffice-fresh
 lolcat
+man-pages
 mediainfo-gui
 mkvtoolnix-gui
 mpv
 mumble
+nano
 networkmanager-openvpn
 neofetch
 nfoview
@@ -53,6 +59,7 @@ liferea
 ranger
 rclone
 riot-desktop
+screen
 smplayer
 smplayer-skins
 thunderbird
@@ -61,6 +68,7 @@ ttf-dejavu
 vim
 virtualbox
 vlc
+whois
 wine-staging
 wireshark-qt
 youtube-dl
@@ -68,6 +76,13 @@ zathura
 zathura-cb
 zathura-djvu
 zathura-pdf-poppler
+
+
+Closed Source:
+anydesk
+
+Development:
+autoconf automake cmake vala
 
 
 Aur packages:
@@ -78,11 +93,12 @@ breeze-obsidian-cursor-theme
 chatty
 cli-visualizer-git
 curseradio-git
+dino-git
 freetube-bin
 fsearch-git
 icecat-bin
 jdownloader2
-lgogdownloader
+lgogdownloader-git
 paper-icon-theme-git
 pipes.sh
 qdirstat-git
@@ -123,6 +139,7 @@ XFCE :
 
 lightdm
 lightdm-gtk-greeter
+qt5ct
 
 arc-gtk-theme
 file-roller
@@ -143,6 +160,10 @@ Search 	catfish --path=%f 	* 	Directories
 
 
 -----
+
+Bluetooth:
+blueman
+
 
 
 Games :

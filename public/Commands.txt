@@ -102,3 +102,6 @@ comm -3 file1 file2
 
 Replace spaces with line break: (Source https://askubuntu.com/questions/461144/how-to-replace-spaces-with-newlines-enter-in-a-text-file )
 xargs -n 1 < file
+
+Sort file alphabetically and remove duplicate lines:
+cat file | sort | uniq
