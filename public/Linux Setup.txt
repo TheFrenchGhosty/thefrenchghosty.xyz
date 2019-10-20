@@ -2,26 +2,9 @@ Arch Linux:
 
 Packages:
 
-aegisub
-android-file-transfer
-audacity
-aria2
-beets
-bleachbit
 catfish
-certbot
-curl
-deluge
-electrum
-filezilla
 fuse
-geany
-gnome-disk-utility
-gnome-twitch
-gimp
-git
 gparted
-gpodder
 gsmartcontrol
 gstreamer
 gst-libav
@@ -30,86 +13,118 @@ gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
 hardinfo
-htop
-innoextract
-highlight
-jackett
 keepassxc
-kodi
 libreoffice-fresh
-lolcat
 man-pages
-mediainfo-gui
-mkvtoolnix-gui
-mpv
-mumble
 nano
 networkmanager-openvpn
-neofetch
 nfoview
 noto-fonts-cjk
 noto-fonts-emoji
-obs-studio
 openssh
 pavucontrol
-peek
-pragha
-qbittorrent
-liferea
-ranger
 rclone
-riot-desktop
 screen
-smplayer
-smplayer-skins
-thunderbird
 tree
 ttf-dejavu
-vim
-virtualbox
-vlc
 whois
-wine-staging
-wireshark-qt
 youtube-dl
-zathura
-zathura-cb
-zathura-djvu
-zathura-pdf-poppler
 
+
+
+Deleted from the repo:
+pragha
 
 Closed Source:
 anydesk
 
 Development:
-autoconf automake cmake vala
+autoconf
+autoconf-archive
+automake
+certbot
+cmake
+git
+lua
+meson
+ninja
+python
+python2
+python2-setuptools
+python-setuptools
+subversion
+vala
+xdg-utils
 
 
 Aur packages:
-
-adwaita-qt
-aseprite
+adwaita-qt-git
+aegisub-git
+android-file-transfer-linux-git
+arc-gtk-theme-git
+aseprite-git
+audacity-git
+beets-git
+bleachbit-git
 breeze-obsidian-cursor-theme
-chatty
+chatty-beta
 cli-visualizer-git
+curl-git
 curseradio-git
+deluge-git
 dino-git
+electrum-git
+file-roller-git
+filezilla-svn
 freetube-bin
 fsearch-git
+geany-git
+gedit-git
+gimp-git
+gnome-disk-utility-git
+gnome-system-monitor-git
+gnome-twitch-git
+gpodder-git
+gsmartcontrol-svn
+htop-git
 icecat-bin
+innoextract-git
+jackett
 jdownloader2
+kodi-devel
 lgogdownloader-git
+liferea-git
+mediainfo-gui-git
+mkvtoolnix-git
+mpv-git
+mumble-git
+obs-studio-git
 paper-icon-theme-git
-pipes.sh
+peek-git
+qbittorrent-dark-git
 qdirstat-git
-rclone-browser
-s-tui
-signal-desktop-git
+rclone-browser-git
+riot-desktop-git
+smplayer-skins-svn
+smplayer-svn
 spek-git
+s-tui-git
+thunderbird-beta-bin
 tor-browser
 ttf-ms-fonts
 ungoogled-chromium-bin
+vim-git
+virtualbox-svn
+vlc-git
+wine-staging-git
+wireshark-git
 woeusb-git
+xreader-git
+zathura-cb-git
+zathura-djvu-git
+zathura-git
+zathura-pdf-poppler-git
+
 
 ------
 
@@ -140,16 +155,11 @@ XFCE :
 lightdm
 lightdm-gtk-greeter
 qt5ct
-
-arc-gtk-theme
-file-roller
 galculator
-gedit
-gnome-system-monitor
 p7zip
 ristretto
 xfce4-screenshooter
-xreader
+
 
 Add Search to Thunar :
 
@@ -162,6 +172,8 @@ Search 	catfish --path=%f 	* 	Directories
 -----
 
 Bluetooth:
+bluez
+bluez-utils
 blueman
 
 
@@ -169,9 +181,6 @@ blueman
 Games :
 
 Gamepad Setup :
-bluez
-bluez-utils
-blueman
 
 Aur : xpadneo-dkms-git
 
