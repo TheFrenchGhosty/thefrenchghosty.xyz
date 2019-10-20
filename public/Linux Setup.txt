@@ -3,7 +3,71 @@ Arch Linux :
 
 Packages :
 
-aegisub android-file-transfer audacity aria2 beets bleachbit catfish certbot curl deluge electrum filezilla fuse gnome-disk-utility gnome-twitch gimp git gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly innoextract highlight keepassxc kodi libreoffice lolcat mediainfo-gui mkvtoolnix-gui mpv mumble networkmanager-openvpn neofetch nfoview noto-fonts-cjk noto-fonts-emoji obs-studio openssh pavucontrol peek pragha qbittorrent liferea ranger rclone riot-desktop smplayer smplayer-skins thunderbird tree ttf-dejavu vim virtualbox vlc wine-staging wireshark-qt youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
+aegisub
+android-file-transfer
+audacity
+aria2
+beets
+bleachbit
+catfish
+certbot
+curl
+deluge
+electrum
+filezilla
+fuse
+gnome-disk-utility
+gnome-twitch
+gimp
+git
+gparted
+gsmartcontrol
+gstreamer
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+innoextract
+highlight
+keepassxc
+kodi
+libreoffice
+lolcat
+mediainfo-gui
+mkvtoolnix-gui
+mpv
+mumble
+networkmanager-openvpn
+neofetch
+nfoview
+noto-fonts-cjk
+noto-fonts-emoji
+obs-studio
+openssh
+pavucontrol
+peek
+pragha
+qbittorrent
+liferea
+ranger
+rclone
+riot-desktop
+smplayer
+smplayer-skins
+thunderbird
+tree
+ttf-dejavu
+vim
+virtualbox
+vlc
+wine-staging
+wireshark-qt
+youtube-dl
+zathura
+zathura-cb
+zathura-djvu
+zathura-pdf-poppler
 
 
 Install Manually from Aur :
@@ -23,7 +87,28 @@ yay
 
 Aur :
 
-adwaita-qt aseprite breeze-obsidian-cursor-theme chatty cli-visualizer-git curseradio-git freetube-bin fsearch-git icecat-bin jdownloader2 lgogdownloader paper-icon-theme-git pipes.sh qdirstat-git rclone-browser s-tui signal-desktop-git spek-git tor-browser ttf-ms-fonts ungoogled-chromium-bin woeusb-git
+adwaita-qt
+aseprite
+breeze-obsidian-cursor-theme
+chatty
+cli-visualizer-git
+curseradio-git
+freetube-bin
+fsearch-git
+icecat-bin
+jdownloader2
+lgogdownloader
+paper-icon-theme-git
+pipes.sh
+qdirstat-git
+rclone-browser
+s-tui
+signal-desktop-git
+spek-git
+tor-browser
+ttf-ms-fonts
+ungoogled-chromium-bin
+woeusb-git
 
 
 AppImage :
@@ -38,8 +123,18 @@ Desktop Environment Specific Packages :
 
 XFCE :
 
-lightdm lightdm-gtk-greeter
-arc-gtk-theme file-roller galculator gedit gnome-system-monitor p7zip ristretto xfce4-screenshooter xreader
+lightdm
+lightdm-gtk-greeter
+
+arc-gtk-theme
+file-roller
+galculator
+gedit
+gnome-system-monitor
+p7zip
+ristretto
+xfce4-screenshooter
+xreader
 
 Add Search to Thunar :
 
@@ -55,7 +150,9 @@ Search 	catfish --path=%f 	* 	Directories
 Games :
 
 Gamepad Setup :
-bluez bluez-utils blueman
+bluez
+bluez-utils
+blueman
 
 Aur : xpadneo-dkms-git
 
@@ -68,13 +165,19 @@ options bluetooth disable_ertm=1
 --
 
 Overwatch :
-lutris lib32-gnutls lib32-libldap lib32-libgpg-error lib32-sqlite lib32-libpulse
+lutris
+lib32-gnutls
+lib32-libldap
+lib32-libgpg-error
+lib32-sqlite
+lib32-libpulse
 
 Grand Theft Auto 5 Steam Proton Launch Option : 
 "DXVK_HUD=fps PROTON_NO_ESYNC=1 WINEDLLOVERRIDES=winedbg.exe=d %command%"
 
 Emulators :
-mame dolphin-emu
+mame
+dolphin-emu
 
 
 -----

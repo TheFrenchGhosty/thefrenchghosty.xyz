@@ -99,3 +99,6 @@ comm -23 file1 file2
 
 Remove lines contained in both files:
 comm -3 file1 file2
+
+Replace spaces with line break: (Source https://askubuntu.com/questions/461144/how-to-replace-spaces-with-newlines-enter-in-a-text-file )
+sed 's/ /\n/g' example
