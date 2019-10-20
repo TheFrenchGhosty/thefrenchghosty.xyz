@@ -72,3 +72,30 @@ rclone mount --vfs-cache-mode writes --low-level-retries 1000 SOURCE: /path/to/m
 Rclone (Google Drive) 750GB daily limit:
 --bwlimit 8M (1 hour to spare)
 --bwlimit 8680 maximum
+
+
+Pacman:
+
+Update:
+sudo pacman -Syu
+
+Update everything including Aur development (-git) packages:
+aurman -Syu --devel
+
+List packages from AUR:
+sudo pacman -Qm
+
+List packages from repo: 
+sudo pacman -Qn
+
+List packages explicitly installed (with version number):
+sudo pacman -Qe
+
+List packages explicitly installed (without version number):
+sudo pacman -Qqe
+
+Remove lines contained in both files and unique lines contained in file2: (Source https://stackoverflow.com/questions/4366533/how-to-remove-the-lines-which-appear-on-file-b-from-another-file-a )
+comm -23 file1 file2
+
+Remove lines contained in both files:
+comm -3 file1 file2
