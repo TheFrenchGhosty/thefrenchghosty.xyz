@@ -1,7 +1,7 @@
-Arch Linux :
+Arch Linux:
 
 
-Packages :
+Packages:
 
 aegisub
 android-file-transfer
@@ -70,22 +70,7 @@ zathura-djvu
 zathura-pdf-poppler
 
 
-Install Manually from Aur :
-
-git clone [URL]
-cd aurman/
-makepkg -si
-[Error]
-gpg --recv-key [Key]
-makepkg -si
-
-Aur Helper :
-
-aurman
-yay
-
-
-Aur :
+Aur packages:
 
 adwaita-qt
 aseprite
@@ -110,14 +95,27 @@ ttf-ms-fonts
 ungoogled-chromium-bin
 woeusb-git
 
+------
+
+Install Manually from Aur :
+
+git clone [Aur Git clone URL]
+cd aurman/
+makepkg -si
+[Error but display a gpg key]
+gpg --recv-key [Key that the error gave]
+makepkg -si
+
+Aur Helper :
+
+aurman
+yay
+
+-----
 
 AppImage :
 
 DeezLoader-Remix
-
-
-
-
 
 Desktop Environment Specific Packages :
 
