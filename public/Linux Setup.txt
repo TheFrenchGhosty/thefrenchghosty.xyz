@@ -46,6 +46,7 @@ autoconf
 autoconf-archive
 automake
 certbot
+clang
 cmake
 git
 lua
