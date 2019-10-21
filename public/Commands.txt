@@ -82,6 +82,9 @@ sudo pacman -Syu
 Update everything including Aur development (-git) packages:
 aurman -Syu --devel
 
+Only install packages that are not installed (IE: No more "warning: XXXXX-X.X-X is up to date -- reinstalling)
+Add --needed
+
 List packages from AUR:
 sudo pacman -Qm
 
