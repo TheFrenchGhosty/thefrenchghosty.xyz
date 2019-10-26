@@ -1,10 +1,12 @@
 Arch Linux:
 
 Packages:
-catfish fuse gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly hardinfo keepassxc libreoffice-fresh man-pages nano networkmanager-openvpn nfoview noto-fonts-cjk noto-fonts-emoji openssh pavucontrol rclone screen tree ttf-dejavu whois youtube-dl
+catfish djvulibre fuse gimp gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly hardinfo keepassxc libreoffice-fresh man-pages nano networkmanager-openvpn nfoview noto-fonts-cjk noto-fonts-emoji openssh pavucontrol qbittorrent rclone screen tree ttf-dejavu virtualbox vlc whois wine-staging wireshark xreader youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
 
 catfish
+djvulibre
 fuse
+gimp
 gparted
 gsmartcontrol
 gstreamer
@@ -24,13 +26,22 @@ noto-fonts-cjk
 noto-fonts-emoji
 openssh
 pavucontrol
+qbittorrent
 rclone
 screen
 tree
 ttf-dejavu
+virtualbox
+vlc
 whois
+wine-staging
+wireshark
+xreader
 youtube-dl
-
+zathura
+zathura-cb
+zathura-djvu
+zathura-pdf-poppler
 
 
 Deleted from the repo:
@@ -40,7 +51,7 @@ Closed Source:
 anydesk
 
 Development:
-autoconf autoconf-archive automake certbot cmake git lua meson ninja python python2 python2-setuptools python-setuptools subversion vala xdg-utils
+autoconf autoconf-archive automake certbot clang cmake git gradle lua meson ninja python python2 python2-setuptools python-setuptools ruby rubygems subversion vala xdg-utils yarn
 
 autoconf
 autoconf-archive
@@ -49,6 +60,7 @@ certbot
 clang
 cmake
 git
+gradle
 lua
 meson
 ninja
@@ -56,16 +68,19 @@ python
 python2
 python2-setuptools
 python-setuptools
+ruby
+rubygems
 subversion
 vala
 xdg-utils
+yarn
 
 
 Aur packages:
-adwaita-qt-git aegisub-git android-file-transfer-linux-git arc-gtk-theme-git aseprite-git audacity-git beets-git bleachbit-git breeze-obsidian-cursor-theme chatty-beta cli-visualizer-git curl-git curseradio-git deluge-git dino-git electrum-git file-roller-git filezilla-svn freetube-bin fsearch-git geany-git gedit-git gimp-git gnome-disk-utility-git gnome-system-monitor-git gnome-twitch-git gpodder-git htop-git icecat-bin innoextract-git jackett jdownloader2 kodi-devel lgogdownloader-git liferea-git mediainfo-gui-git mkvtoolnix-git mpv-git mumble-git obs-studio-git paper-icon-theme-git peek-git qbittorrent-dark-git qdirstat-git rclone-browser-git riot-desktop-git smplayer-skins-svn smplayer-svn spek-git s-tui-git thunderbird-beta-bin tor-browser ttf-ms-fonts ungoogled-chromium-bin vim-git virtualbox-svn vlc-git wine-staging-git wireshark-git woeusb-git xreader-git zathura-cb-git zathura-djvu-git zathura-git zathura-pdf-poppler-git
+adwaita-qt-git aegisub android-file-transfer-linux-git arc-gtk-theme-git aseprite-git audacity-git beets-git bleachbit-git breeze-obsidian-cursor-theme chatty-beta cli-visualizer-git curl-git curseradio-git deluge-git dino-git electrum-git file-roller-git filezilla-svn freetube-bin fsearch-git geany-git gedit-git gnome-disk-utility-git gnome-system-monitor-git gnome-twitch-git gpodder-git htop-git icecat-bin inkscape-git innoextract-git jackett jdownloader2 kodi-devel lgogdownloader-git liferea-git mediainfo-gui-git mkvtoolnix-git mpv-git mumble-git obs-studio-git paper-icon-theme-git peek-git qdirstat-git rclone-browser-git riot-desktop-git smplayer-skins-svn smplayer-svn spek-git s-tui-git thunderbird-beta-bin tor-browser ttf-ms-fonts ungoogled-chromium-bin vim-git woeusb-git
 
 adwaita-qt-git
-aegisub-git
+aegisub
 android-file-transfer-linux-git
 arc-gtk-theme-git
 aseprite-git
@@ -86,13 +101,13 @@ freetube-bin
 fsearch-git
 geany-git
 gedit-git
-gimp-git
 gnome-disk-utility-git
 gnome-system-monitor-git
 gnome-twitch-git
 gpodder-git
 htop-git
 icecat-bin
+inkscape-git
 innoextract-git
 jackett
 jdownloader2
@@ -106,7 +121,6 @@ mumble-git
 obs-studio-git
 paper-icon-theme-git
 peek-git
-qbittorrent-dark-git
 qdirstat-git
 rclone-browser-git
 riot-desktop-git
@@ -119,17 +133,20 @@ tor-browser
 ttf-ms-fonts
 ungoogled-chromium-bin
 vim-git
-virtualbox-svn
-vlc-git
-wine-staging-git
-wireshark-git
 woeusb-git
-xreader-git
-zathura-cb-git
-zathura-djvu-git
-zathura-git
-zathura-pdf-poppler-git
 
+
+
+Broken Git Packages:
+aegisub-git xreader-git zathura-cb
+
+aegisub-git
+xreader-git
+zathura-cb
+
+
+Packages not in the repo nor in the AUR:
+pragha (removed in October 2019, reason unknown)
 
 ------
 
