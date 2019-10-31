@@ -51,6 +51,9 @@ Delete every folders containing $NUM number of files:
 
 IFS=$'\n'; for i in $(find -mindepth 2 -type f -printf '%h\0' | awk -v num="$NUM" 'BEGIN{RS="\0"} {array[$0]++} END{for (line in array) if (array[line]==num) printf "%s\n", line}'); do rm -rf $i; done
 
+Move every folder named [FOLDERNAME] to a unique folder (merging their content):
+find -type d -name 'FOLDERNAME' -exec cp -r {} /path/to/output \;
+
 Wipe a Drive :
 sudo blockdev --getbsz
 Get you blocksize
