@@ -3,8 +3,8 @@
 Available Here : http://thefrenchghosty.xyz
 
 Todo :
-- Learn to make table...
-- ... and format the content lists (Web Browser...) in table...
+- Learn to make table... (Done ✔)
+- ... and format the content lists (Web Browser...) in table... (Started ✔)
 - ... to start the Complete Redesign of the website
 - Rewrite every txt in html (30+ more needs to be uploaded but I want to rewrite the one already here first)
 - Draw the favicon in pixel art

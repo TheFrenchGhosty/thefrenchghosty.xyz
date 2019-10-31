@@ -54,6 +54,10 @@ IFS=$'\n'; for i in $(find -mindepth 2 -type f -printf '%h\0' | awk -v num="$NUM
 Move every folder named [FOLDERNAME] to a unique folder (merging their content):
 find -type d -name 'FOLDERNAME' -exec cp -r {} /path/to/output \;
 
+Tar every folder and delete them after (Source https://stackoverflow.com/questions/15936003/for-each-dir-create-a-tar-file):
+find . -maxdepth 1 -mindepth 1 -type d -exec tar cvf {}.tar {} --remove-files \;
+
+
 Wipe a Drive :
 sudo blockdev --getbsz
 Get you blocksize
