@@ -15,4 +15,5 @@ Merge Requests are welcome : See the Indenting/Formating Rules [here](https://gi
 ## Contact:
 
 #### XMPP: [thefrenchghosty@snopyta.org](xmpp:thefrenchghosty@snopyta.org)
+#### Email: thefrenchghosty [at] posteo [dot] is
 
