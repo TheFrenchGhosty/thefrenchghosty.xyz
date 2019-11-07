@@ -1,12 +1,13 @@
 Arch Linux:
 
 Packages:
-catfish djvulibre fuse gimp gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly hardinfo keepassxc libreoffice-fresh man-pages nano networkmanager-openvpn nfoview noto-fonts-cjk noto-fonts-emoji openssh pavucontrol qbittorrent rclone screen tree ttf-dejavu virtualbox vlc whois wine-staging wireshark xreader youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
+catfish djvulibre fuse gimp gnome-twitch gparted gsmartcontrol gstreamer gst-libav gst-plugins-bad gst-plugins-base gst-plugins-good gst-plugins-ugly hardinfo keepassxc libreoffice-fresh man-pages nano networkmanager-openvpn nfoview noto-fonts-cjk noto-fonts-emoji openssh pavucontrol qbittorrent rclone screen tree ttf-dejavu virtualbox vlc whois wine-staging wireshark xreader youtube-dl zathura zathura-cb zathura-djvu zathura-pdf-poppler
 
 catfish
 djvulibre
 fuse
 gimp
+gnome-twitch
 gparted
 gsmartcontrol
 gstreamer
@@ -77,7 +78,7 @@ yarn
 
 
 Aur packages:
-adwaita-qt-git aegisub android-file-transfer-linux-git arc-gtk-theme-git aseprite-git audacity-git beets-git bleachbit-git breeze-obsidian-cursor-theme chatty-beta cli-visualizer-git curl-git curseradio-git deluge1 dino-git electrum-git file-roller-git filezilla-svn freetube-bin fsearch-git geany-git gedit-git gnome-disk-utility-git gnome-system-monitor-git gnome-twitch-git gpodder-git htop-git icecat-bin inkscape-git innoextract-git jackett jdownloader2 kodi-devel lgogdownloader-git liferea-git mediainfo-gui-git mkvtoolnix-git mpv-git mumble-git obs-studio-git paper-icon-theme-git peek-git qdirstat-git rclone-browser-git riot-desktop-git smplayer-skins-svn smplayer-svn spek-git s-tui-git thunderbird-beta-bin tor-browser ttf-ms-fonts ungoogled-chromium-bin vim-git woeusb-git
+adwaita-qt-git aegisub android-file-transfer-linux-git arc-gtk-theme-git aseprite-git audacity-git beets-git bleachbit-git breeze-obsidian-cursor-theme chatty-beta cli-visualizer-git curl-git curseradio-git deluge1 dino-git electrum-git file-roller-git filezilla-svn freetube-bin fsearch-git geany-git gedit-git gnome-disk-utility-git gnome-system-monitor-git gpodder-git htop-git icecat-bin inkscape-git innoextract-git jackett jdownloader2 kodi-devel lgogdownloader-git liferea-git mediainfo-gui-git mkvtoolnix-git mpv-git mumble-git obs-studio-git paper-icon-theme-git peek-git qdirstat-git rclone-browser-git riot-desktop-git smplayer-skins-svn smplayer-svn spek-git s-tui-git thunderbird-beta-bin tor-browser torrent-file-editor-qt5-git ttf-ms-fonts ungoogled-chromium-bin vim-git woeusb-git
 
 adwaita-qt-git
 aegisub
@@ -103,7 +104,6 @@ geany-git
 gedit-git
 gnome-disk-utility-git
 gnome-system-monitor-git
-gnome-twitch-git
 gpodder-git
 htop-git
 icecat-bin
@@ -130,6 +130,7 @@ spek-git
 s-tui-git
 thunderbird-beta-bin
 tor-browser
+torrent-file-editor-qt5-git
 ttf-ms-fonts
 ungoogled-chromium-bin
 vim-git
@@ -138,9 +139,10 @@ woeusb-git
 
 
 Broken Git Packages:
-aegisub-git xreader-git zathura-cb
+aegisub-git  gnome-twitch-git xreader-git zathura-cb
 
 aegisub-git
+gnome-twitch-git
 xreader-git
 zathura-cb
 
