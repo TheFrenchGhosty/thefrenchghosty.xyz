@@ -78,7 +78,7 @@ yarn
 
 
 Aur packages:
-adwaita-qt-git aegisub android-file-transfer-linux-git arc-gtk-theme-git aseprite-git audacity-git beets-git bleachbit-git breeze-obsidian-cursor-theme chatty-beta cli-visualizer-git curl-git curseradio-git deluge1 dino-git electrum-git file-roller-git filezilla-svn freetube-bin fsearch-git geany-git gedit-git gnome-disk-utility-git gnome-system-monitor-git gpodder-git htop-git icecat-bin inkscape-git innoextract-git jackett jdownloader2 kodi-devel lgogdownloader-git liferea-git mediainfo-gui-git mkvtoolnix-git mpv-git mumble-git obs-studio-git paper-icon-theme-git peek-git qdirstat-git rclone-browser-git riot-desktop-git smplayer-skins-svn smplayer-svn spek-git s-tui-git thunderbird-beta-bin tor-browser torrent-file-editor-qt5-git ttf-ms-fonts ungoogled-chromium-bin vim-git woeusb-git
+adwaita-qt-git aegisub android-file-transfer-linux-git arc-gtk-theme-git aseprite-git audacity-git beets-git bleachbit-git breeze-obsidian-cursor-theme chatty-beta cli-visualizer-git curl-git curseradio-git deluge1 dino-git electrum-git file-roller-git filezilla-svn freetube-bin fsearch-git geany-git gedit-git gnome-disk-utility-git gnome-system-monitor-git htop-git icecat-bin inkscape-git innoextract-git jackett jdownloader2 kodi-devel lgogdownloader-git liferea-git mediainfo-gui-git mkvtoolnix-git mpv-git mumble-git obs-studio-git paper-icon-theme-git peek-git qdirstat-git rclone-browser-git riot-desktop-git smplayer-skins-svn smplayer-svn spek-git s-tui-git thunderbird-beta-bin tor-browser torrent-file-editor-qt5-git ttf-ms-fonts ungoogled-chromium-bin vim-git woeusb-git
 
 adwaita-qt-git
 aegisub
@@ -104,7 +104,6 @@ geany-git
 gedit-git
 gnome-disk-utility-git
 gnome-system-monitor-git
-gpodder-git
 htop-git
 icecat-bin
 inkscape-git
