@@ -239,3 +239,17 @@ HP Printers :
 
 https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#HPLIP
 hplip cups
+
+
+-----
+
+Android SDK-Tools (ADB/Fastboot)
+
+android-tools
+
+
+If "error: insufficient permissions for device"
+adb kill-server
+sudo adb start-server
+
+fastboot command need to be run as root
