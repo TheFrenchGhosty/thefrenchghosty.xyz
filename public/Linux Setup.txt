@@ -215,6 +215,25 @@ vim /etc/modprobe.d/xbox_bt.conf
 options bluetooth disable_ertm=1
 --
 
+Lutris + Gallium Nine
+
+Some games (like Rayman Origins https://bugs.winehq.org/show_bug.cgi?id=30550), load with missing sprites by default in Wine.
+
+The fix is to use Gallium Nine (https://github.com/iXit/wine-nine-standalone), however it's not included by default in Lutris and needs to be setup manually.
+
+sudo pacman -S wine-nine
+
+To enable it in you default wine installation:
+wine ninewinecfg
+
+To make it work with a game installed in Lutris:
+
+WINEPREFIX=/path/to/game/ wine ninewinecfg
+
+(Example: WINEPREFIX=/home/[NAME]/Games/rayman-origins/ wine ninewinecfg)
+
+
+
 Overwatch :
 lutris
 lib32-gnutls
