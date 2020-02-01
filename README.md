@@ -3,7 +3,7 @@
 Available Here : http://thefrenchghosty.xyz
 
 #### I sadly can't afford to renew the domain names pointing to this website (for now), they will expire on February 12, 2020 and will be renewed (if still available) when I can. Sorry.
-#### Je ne peux malheureusement pas me permettre de renouveller les noms de domaine pointant vers ce site internet (pour l'instant), ils expireront le 12 Fevrier 2020 et seront renouvellés (si toujours disponnible) quand je pourrai. Désolé.
+#### Je ne peux malheureusement pas me permettre de renouveller les noms de domaine pointant vers ce site internet (pour l'instant), ils expireront le 12 Fevrier 2020 et seront renouvellés (si toujours disponible) quand je pourrai. Désolé.
 
 Todo :
 - Learn to make table... (Done ✔)
