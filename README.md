@@ -1,6 +1,6 @@
 # TheFrenchGhosty's personal website
 
-Available Here : https://PussTheCat.org/TheFrenchGhosty/
+Available Here : https://PussTheCat.org/thefrenchghosty/
 
 Todo :
 - Learn to make table... (Done ✔)
